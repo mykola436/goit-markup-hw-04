@@ -20,6 +20,7 @@
   --button-text-color: #ffffff;
   --button-accent-bckgrnd: #188ce8;
   --icon-color-one: #afb1b8;
+  --icon-color-two: #ffffff;
 }
 
 .container {
@@ -382,6 +383,10 @@ body {
   background-color: var(--background-color-footer);
   padding: 60px 0;
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
 .footer-logo {
   display: block;
   margin-bottom: 20px;
@@ -421,7 +426,43 @@ body {
 .link-address-footer:focus {
   color: var(--accent-color-two);
 }
-
+.join-us {
+  margin-left: 70px;
+}
+.join-us-title {
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--h1-color);
+}
+.footer-social-list {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-social-item + .footer-social-item {
+  margin-left: 10px;
+}
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-social-icon {
+  fill: var(--icon-color-two);
+}
+.footer-social-link:focus,
+.footer-social-link:hover {
+  background-color: var(--accent-color-two);
+}
 /* ------------------------------PORTFOLIO PAGE---------------------------------*/
 .portfolio {
   background-color: var(--background-color-main);
