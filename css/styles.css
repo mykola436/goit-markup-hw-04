@@ -347,7 +347,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: calc(100% / 6 - 30px);
+  width: calc(100% / 6 - (30px - 30px / 6));
   min-height: 92px;
   margin-right: 30px;
   margin-bottom: 30px;
